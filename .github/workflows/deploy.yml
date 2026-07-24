@@ -130,8 +130,8 @@ jobs:
         id: cache-primes
         uses: actions/cache/save@v4
         with:
-          path: assets
-          key: ${{ github.run_number }}-release
+         path: assets
+         key: ${{ github.run_number }}-release
 
       - name: Store artifact commit version
         shell: bash
